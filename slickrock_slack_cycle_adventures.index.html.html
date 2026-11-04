@@ -1,0 +1,1439 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  
+  <!-- ================= SEO META TAGS PARA INDEXAÇÃO ================= -->
+  <title>Slickrock Slack & Cycle Adventures – Mountain Bike & Highline em Moab, Utah</title>
+  <meta name="description" content="Aventuras guiadas de Mountain Bike na rocha Slickrock e travessias em Highline sobre os cânions em Moab, Utah. Guias certificados, equipamentos de alta performance e suporte completo.">
+  <meta name="keywords" content="Moab Utah, Mountain Bike Slickrock, Highline Cânion, Slackline Moab, Turismo de Aventura EUA, Aluguel de Bike Moab">
+  <meta name="author" content="Slickrock Slack & Cycle Adventures">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Facebook / WhatsApp -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.sscadventures.com/">
+  <meta property="og:title" content="Slickrock Slack & Cycle Adventures – Moab, Utah">
+  <meta property="og:description" content="Pedale na rocha de arenito e caminhe nas alturas. Os melhores passeios de mountain bike e highline no cenário espetacular de Moab.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1527549993586-dff825b37782?auto=format&fit=crop&w=1200&q=80">
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Slickrock Slack & Cycle Adventures – Moab, Utah">
+  <meta name="twitter:description" content="Aventuras inesquecíveis de Mountain Bike e Highline nos cânions de Moab. Agende sua expedição!">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1527549993586-dff825b37782?auto=format&fit=crop&w=1200&q=80">
+
+  <!-- ================= SCHEMA.ORG JSON-LD FOR SEARCH ENGINE INDEXING ================= -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TouristAttraction",
+    "name": "Slickrock Slack & Cycle Adventures",
+    "description": "Empresa especializada em passeios guiados de mountain bike no arenito slickrock e travessias de highline nos cânions de Moab, Utah.",
+    "url": "https://www.sscadventures.com",
+    "telephone": "+1-435-555-0142",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Main Street",
+      "addressLocality": "Moab",
+      "addressRegion": "UT",
+      "postalCode": "84532",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 38.5733,
+      "longitude": -109.5498
+    },
+    "priceRange": "$$$",
+    "image": "https://images.unsplash.com/photo-1527549993586-dff825b37782?auto=format&fit=crop&w=1200&q=80"
+  }
+  </script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            rust: {
+              50: '#fdf3f0',
+              100: '#fbe4dc',
+              500: '#e2592d',
+              600: '#c84b23',
+              700: '#a63f1d',
+              900: '#5c1f0a'
+            },
+            canyon: {
+              50: '#f0f9fa',
+              500: '#1f6f78',
+              600: '#17565d',
+              800: '#103c41',
+              900: '#0b2629'
+            },
+            sand: {
+              100: '#fef7e6',
+              400: '#f5c35c',
+              500: '#f2b33d',
+              600: '#d99726'
+            }
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            display: ['"Barlow Condensed"', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* Custom Scrollbar and UI Enhancements */
+    ::-webkit-scrollbar { width: 10px; }
+    ::-webkit-scrollbar-track { background: #0b1318; }
+    ::-webkit-scrollbar-thumb { background: #a63f1d; border-radius: 5px; }
+    
+    .glass-card {
+      background: rgba(255, 255, 255, 0.9);
+      backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.5);
+    }
+    .dark .glass-card {
+      background: rgba(23, 38, 46, 0.85);
+      backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .hero-gradient {
+      background: linear-gradient(180deg, rgba(11,19,24,0.4) 0%, rgba(11,19,24,0.95) 100%);
+    }
+
+    .badge-glow {
+      box-shadow: 0 0 20px rgba(242, 179, 61, 0.35);
+    }
+  </style>
+</head>
+<body class="bg-slate-50 dark:bg-[#0B1318] text-slate-800 dark:text-slate-100 font-sans transition-colors duration-300">
+
+  <!-- ================= BARRA DE NAVEGAÇÃO ================= -->
+  <nav class="sticky top-0 z-50 bg-white/90 dark:bg-[#0B1318]/90 backdrop-blur-md border-b border-slate-200 dark:border-slate-800/80 shadow-sm transition-all">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <!-- Brand Logo -->
+      <a href="#" class="flex items-center gap-3 group">
+        <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-rust-500 to-sand-500 flex items-center justify-center text-white shadow-lg shadow-rust-500/20 group-hover:scale-105 transition-transform">
+          <i class="fa-solid fa-person-biking text-xl"></i>
+        </div>
+        <div>
+          <span class="font-display font-extrabold text-2xl tracking-wide uppercase text-rust-600 dark:text-rust-500 block leading-none">SLICKROCK</span>
+          <span class="text-xs font-semibold tracking-widest text-slate-500 dark:text-slate-400 uppercase">Slack & Cycle Moab</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <div class="hidden lg:flex items-center gap-7 text-sm font-semibold text-slate-700 dark:text-slate-300">
+        <a href="#modalidades" class="hover:text-rust-500 transition-colors">Modalidades</a>
+        <a href="#como" class="hover:text-rust-500 transition-colors">Como Funciona</a>
+        <a href="#galeria" class="hover:text-rust-500 transition-colors">Galeria</a>
+        <a href="#equipe" class="hover:text-rust-500 transition-colors">Equipe</a>
+        <a href="#precos" class="hover:text-rust-500 transition-colors">Preços</a>
+        <a href="#comentarios" class="hover:text-rust-500 transition-colors flex items-center gap-1.5">
+          <span>Avaliações</span>
+          <span class="bg-sand-500/20 text-sand-600 dark:text-sand-400 text-xs px-2 py-0.5 rounded-full font-bold">5.0 ★</span>
+        </a>
+        <a href="#faq" class="hover:text-rust-500 transition-colors">Dúvidas</a>
+        <a href="#moab" class="hover:text-rust-500 transition-colors">O Local</a>
+      </div>
+
+      <!-- Right Action Controls -->
+      <div class="flex items-center gap-3">
+        <!-- Theme Toggle -->
+        <button id="themeToggle" class="w-10 h-10 rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:text-rust-500 flex items-center justify-center transition-colors" title="Alternar Modo Claro/Escuro">
+          <i class="fa-solid fa-moon dark:hidden text-lg"></i>
+          <i class="fa-solid fa-sun hidden dark:block text-lg text-sand-400"></i>
+        </button>
+
+        <!-- CTA Booking Trigger -->
+        <a href="#cadastro" class="hidden sm:inline-flex items-center gap-2 bg-gradient-to-r from-rust-600 to-rust-500 hover:from-rust-500 hover:to-rust-600 text-white font-bold px-5 py-2.5 rounded-2xl shadow-lg shadow-rust-600/30 hover:shadow-rust-600/50 transition-all transform hover:-translate-y-0.5">
+          <i class="fa-solid fa-calendar-check"></i>
+          <span>Reservar Agora</span>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button id="mobileMenuBtn" class="lg:hidden w-10 h-10 rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-200 flex items-center justify-center">
+          <i class="fa-solid fa-bars text-xl"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Menu -->
+    <div id="mobileMenu" class="hidden lg:hidden border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-[#0B1318] px-4 pt-3 pb-6 space-y-3">
+      <a href="#modalidades" class="block py-2 font-medium text-slate-700 dark:text-slate-200 hover:text-rust-500">Modalidades</a>
+      <a href="#como" class="block py-2 font-medium text-slate-700 dark:text-slate-200 hover:text-rust-500">Como Funciona</a>
+      <a href="#galeria" class="block py-2 font-medium text-slate-700 dark:text-slate-200 hover:text-rust-500">Galeria</a>
+      <a href="#equipe" class="block py-2 font-medium text-slate-700 dark:text-slate-200 hover:text-rust-500">Equipe</a>
+      <a href="#precos" class="block py-2 font-medium text-slate-700 dark:text-slate-200 hover:text-rust-500">Preços & Calculadora</a>
+      <a href="#comentarios" class="block py-2 font-medium text-slate-700 dark:text-slate-200 hover:text-rust-500">Depoimentos</a>
+      <a href="#faq" class="block py-2 font-medium text-slate-700 dark:text-slate-200 hover:text-rust-500">Dúvidas Frequentes</a>
+      <a href="#moab" class="block py-2 font-medium text-slate-700 dark:text-slate-200 hover:text-rust-500">O Local</a>
+      <a href="#cadastro" class="block w-full text-center bg-rust-600 text-white font-bold py-3 rounded-2xl shadow-lg">Fazer Cadastro & Reserva</a>
+    </div>
+  </nav>
+
+  <!-- ================= HERO SECTION ================= -->
+  <header class="relative min-h-[85vh] flex items-center justify-center overflow-hidden bg-slate-900">
+    <!-- Real Moab High Resolution Background Image -->
+    <div class="absolute inset-0 z-0">
+      <img 
+        src="https://images.unsplash.com/photo-1527549993586-dff825b37782?auto=format&fit=crop&w=2000&q=85" 
+        alt="Moab Utah Canyons" 
+        class="w-full h-full object-cover object-center transform scale-105 filter brightness-90 contrast-110"
+        onerror="this.src='https://placehold.co/1920x1080/a63f1d/ffffff?text=Moab+Utah+Canyons'"
+      />
+      <div class="absolute inset-0 hero-gradient"></div>
+    </div>
+
+    <!-- Hero Content -->
+    <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center text-white">
+      
+      <!-- Location Tag -->
+      <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-rust-600/80 backdrop-blur-md border border-rust-400/40 text-sand-100 text-xs sm:text-sm font-semibold tracking-wider uppercase mb-8 shadow-xl badge-glow">
+        <i class="fa-solid fa-location-dot text-sand-400"></i>
+        <span>Moab, Utah (EUA) • Temporada 2026-27</span>
+      </div>
+
+      <!-- Main Title -->
+      <h1 class="font-display uppercase font-extrabold text-5xl sm:text-7xl lg:text-8xl tracking-tight leading-none mb-6 drop-shadow-lg">
+        Pedale na Rocha.<br/>
+        <span class="text-transparent bg-clip-text bg-gradient-to-r from-sand-400 via-rust-400 to-sand-500">Caminhe na Fita.</span>
+      </h1>
+
+      <p class="max-w-2xl mx-auto text-lg sm:text-xl text-slate-200 font-normal leading-relaxed mb-10 drop-shadow">
+        Passeios guiados de mountain bike nas famosas trilhas de <span class="text-sand-400 font-semibold">arenito slickrock</span> e travessias exclusivas de <span class="text-sand-400 font-semibold">highline sobre os cânions</span>. Dois esportes lendários, uma única base em Moab.
+      </p>
+
+      <!-- Action Buttons -->
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
+        <a href="#cadastro" class="w-full sm:w-auto px-8 py-4 rounded-2xl bg-gradient-to-r from-rust-500 to-rust-600 hover:from-rust-600 hover:to-rust-700 text-white font-bold text-lg shadow-2xl shadow-rust-600/50 hover:scale-105 transition-all flex items-center justify-center gap-3">
+          <i class="fa-solid fa-bolt text-sand-400"></i>
+          <span>Garanta Sua Vaga</span>
+        </a>
+        <a href="#precos" class="w-full sm:w-auto px-8 py-4 rounded-2xl bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/30 text-white font-bold text-lg hover:scale-105 transition-all flex items-center justify-center gap-3">
+          <i class="fa-solid fa-calculator text-canyon-500"></i>
+          <span>Simulador de Preços</span>
+        </a>
+      </div>
+
+      <!-- Feature Badges -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 p-6 rounded-3xl bg-slate-900/70 backdrop-blur-md border border-white/10 max-w-4xl mx-auto text-left shadow-2xl">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-xl bg-rust-500/20 text-rust-400 flex items-center justify-center shrink-0">
+            <i class="fa-solid fa-shield-halved text-xl"></i>
+          </div>
+          <div>
+            <div class="font-extrabold text-white text-sm">100% Seguro</div>
+            <div class="text-xs text-slate-300">Guias Certificados</div>
+          </div>
+        </div>
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-xl bg-sand-500/20 text-sand-400 flex items-center justify-center shrink-0">
+            <i class="fa-solid fa-mountain text-xl"></i>
+          </div>
+          <div>
+            <div class="font-extrabold text-white text-sm">Para Todos</div>
+            <div class="text-xs text-slate-300">Iniciante a Pro</div>
+          </div>
+        </div>
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-xl bg-canyon-500/20 text-canyon-400 flex items-center justify-center shrink-0">
+            <i class="fa-solid fa-van-shuttle text-xl"></i>
+          </div>
+          <div>
+            <div class="font-extrabold text-white text-sm">Transporte</div>
+            <div class="text-xs text-slate-300">Incluso da Base</div>
+          </div>
+        </div>
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center shrink-0">
+            <i class="fa-solid fa-star text-xl"></i>
+          </div>
+          <div>
+            <div class="font-extrabold text-white text-sm">Nota 5.0 / 5</div>
+            <div class="text-xs text-slate-300">+200 Aventureiros</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ================= GALERIA DE FOTOS REALISMO ================= -->
+  <section id="galeria" class="py-16 bg-slate-100 dark:bg-[#0E171D] border-y border-slate-200 dark:border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-10">
+        <div>
+          <span class="text-rust-600 dark:text-rust-500 font-bold uppercase tracking-wider text-xs block mb-1">Cenário Impressionante</span>
+          <h2 class="font-display text-4xl sm:text-5xl font-extrabold uppercase tracking-tight text-slate-900 dark:text-white">Imagens Reais de Moab</h2>
+        </div>
+        <p class="text-slate-600 dark:text-slate-400 max-w-md text-sm mt-3 md:mt-0">
+          A paisagem surreal de arenito vermelho, arcos naturais e o Rio Colorado formam o cenário perfeito para nossas rotas de bike e highline.
+        </p>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <!-- Photo 1 -->
+        <div class="group relative h-72 rounded-3xl overflow-hidden shadow-lg cursor-pointer transform transition-transform hover:-translate-y-1" onclick="openLightbox('https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=1200&q=80', 'Mountain Bike na Rocha Slickrock')">
+          <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=600&q=80" alt="Mountain Bike Moab" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onerror="this.src='https://placehold.co/600x600/a63f1d/ffffff?text=Mountain+Bike'">
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent opacity-80 group-hover:opacity-90 transition-opacity"></div>
+          <div class="absolute bottom-4 left-4 right-4 text-white">
+            <span class="bg-rust-600 text-[10px] font-bold uppercase px-2.5 py-1 rounded-full text-white mb-2 inline-block">Mountain Bike</span>
+            <h3 class="font-bold text-lg leading-tight">Pedal no Arenito Slickrock</h3>
+          </div>
+        </div>
+
+        <!-- Photo 2 -->
+        <div class="group relative h-72 rounded-3xl overflow-hidden shadow-lg cursor-pointer transform transition-transform hover:-translate-y-1" onclick="openLightbox('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80', 'Highline sobre os Cânions de Moab')">
+          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Highline Cânion" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onerror="this.src='https://placehold.co/600x600/1f6f78/ffffff?text=Highline+Moab'">
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent opacity-80 group-hover:opacity-90 transition-opacity"></div>
+          <div class="absolute bottom-4 left-4 right-4 text-white">
+            <span class="bg-canyon-500 text-[10px] font-bold uppercase px-2.5 py-1 rounded-full text-white mb-2 inline-block">Highline</span>
+            <h3 class="font-bold text-lg leading-tight">Equilíbrio nas Alturas</h3>
+          </div>
+        </div>
+
+        <!-- Photo 3 -->
+        <div class="group relative h-72 rounded-3xl overflow-hidden shadow-lg cursor-pointer transform transition-transform hover:-translate-y-1" onclick="openLightbox('https://images.unsplash.com/photo-1517649763962-0c623266010b?auto=format&fit=crop&w=1200&q=80', 'Trilhas no Deserto de Utah')">
+          <img src="https://images.unsplash.com/photo-1517649763962-0c623266010b?auto=format&fit=crop&w=600&q=80" alt="Trilhas do Deserto" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onerror="this.src='https://placehold.co/600x600/f2b33d/ffffff?text=Trilhas+Moab'">
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent opacity-80 group-hover:opacity-90 transition-opacity"></div>
+          <div class="absolute bottom-4 left-4 right-4 text-white">
+            <span class="bg-sand-500 text-slate-950 text-[10px] font-bold uppercase px-2.5 py-1 rounded-full mb-2 inline-block">Paisagem</span>
+            <h3 class="font-bold text-lg leading-tight">Mirantes de Dead Horse Point</h3>
+          </div>
+        </div>
+
+        <!-- Photo 4 -->
+        <div class="group relative h-72 rounded-3xl overflow-hidden shadow-lg cursor-pointer transform transition-transform hover:-translate-y-1" onclick="openLightbox('https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=1200&q=80', 'Pôr do Sol Mágico no Cânion')">
+          <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=600&q=80" alt="Pôr do Sol Cânion" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" onerror="this.src='https://placehold.co/600x600/5c1f0a/ffffff?text=Por+do+Sol'">
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent opacity-80 group-hover:opacity-90 transition-opacity"></div>
+          <div class="absolute bottom-4 left-4 right-4 text-white">
+            <span class="bg-purple-600 text-[10px] font-bold uppercase px-2.5 py-1 rounded-full text-white mb-2 inline-block">Experiência</span>
+            <h3 class="font-bold text-lg leading-tight">Skywalk ao Pôr do Sol</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= MODALIDADES INTERATIVAS ================= -->
+  <section id="modalidades" class="py-20 relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-rust-600 dark:text-rust-500 font-extrabold uppercase tracking-widest text-xs bg-rust-500/10 px-4 py-1.5 rounded-full inline-block mb-3">Escolha Seu Desafio</span>
+        <h2 class="font-display text-4xl sm:text-6xl font-extrabold uppercase tracking-tight text-slate-900 dark:text-white">As Duas Modalidades</h2>
+        <p class="text-slate-600 dark:text-slate-300 text-lg mt-3">
+          Combinamos a tração incomparável da pedra com o controle mental e corporal da fita nas alturas.
+        </p>
+      </div>
+
+      <!-- Skill Level Interactive Filter Tabs -->
+      <div class="flex justify-center mb-10">
+        <div class="inline-flex p-1.5 rounded-2xl bg-slate-200 dark:bg-slate-800/80 backdrop-blur">
+          <button onclick="filterSkill('todos')" id="skillTab-todos" class="skill-tab active px-5 py-2.5 rounded-xl font-bold text-sm transition-all bg-rust-600 text-white shadow-md">Todos os Níveis</button>
+          <button onclick="filterSkill('iniciante')" id="skillTab-iniciante" class="skill-tab px-5 py-2.5 rounded-xl font-bold text-sm transition-all text-slate-600 dark:text-slate-300 hover:text-rust-500">Iniciantes</button>
+          <button onclick="filterSkill('intermediario')" id="skillTab-intermediario" class="skill-tab px-5 py-2.5 rounded-xl font-bold text-sm transition-all text-slate-600 dark:text-slate-300 hover:text-rust-500">Intermediário</button>
+          <button onclick="filterSkill('avancado')" id="skillTab-avancado" class="skill-tab px-5 py-2.5 rounded-xl font-bold text-sm transition-all text-slate-600 dark:text-slate-300 hover:text-rust-500">Avançado / Pro</button>
+        </div>
+      </div>
+
+      <!-- Cards Grid -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        
+        <!-- CARD 1: MOUNTAIN BIKE -->
+        <div class="glass-card rounded-3xl p-8 shadow-xl relative overflow-hidden flex flex-col justify-between border border-slate-200 dark:border-slate-800">
+          <div class="absolute top-0 right-0 w-32 h-32 bg-rust-500/10 rounded-bl-full pointer-events-none"></div>
+          
+          <div>
+            <div class="flex items-center gap-4 mb-6">
+              <div class="w-14 h-14 rounded-2xl bg-rust-500 text-white flex items-center justify-center text-2xl shadow-lg shadow-rust-500/30">
+                <i class="fa-solid fa-person-biking"></i>
+              </div>
+              <div>
+                <h3 class="font-display text-3xl font-bold text-slate-900 dark:text-white uppercase">Mountain Bike na Slickrock</h3>
+                <span class="text-xs font-semibold text-rust-600 dark:text-rust-400">Arenito com máxima aderência e tração</span>
+              </div>
+            </div>
+
+            <p class="text-slate-600 dark:text-slate-300 leading-relaxed mb-6">
+              Pedalar em trilhas de terra, pedra e deserto. Em Moab, a estrela é a <b>slickrock</b>: um arenito especial que faz o pneu "grudar" de forma incrível em subidas e descidas íngremes.
+            </p>
+
+            <div class="space-y-3 mb-8">
+              <div class="skill-card skill-iniciante p-4 rounded-2xl bg-slate-100 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700/60">
+                <div class="flex items-center justify-between mb-1">
+                  <span class="font-bold text-slate-900 dark:text-white text-sm"><i class="fa-solid fa-seedling text-emerald-500 mr-2"></i>Iniciante</span>
+                  <span class="text-xs bg-emerald-500/20 text-emerald-600 dark:text-emerald-400 font-bold px-2.5 py-0.5 rounded-full">Trilhas Leves</span>
+                </div>
+                <p class="text-xs text-slate-600 dark:text-slate-400">Moab Brand Trails, Bar M e circuito cênico de Dead Horse Point.</p>
+              </div>
+
+              <div class="skill-card skill-intermediario p-4 rounded-2xl bg-slate-100 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700/60">
+                <div class="flex items-center justify-between mb-1">
+                  <span class="font-bold text-slate-900 dark:text-white text-sm"><i class="fa-solid fa-gauge-high text-sand-500 mr-2"></i>Intermediário</span>
+                  <span class="text-xs bg-sand-500/20 text-sand-600 dark:text-sand-400 font-bold px-2.5 py-0.5 rounded-full">Desafio Moderado</span>
+                </div>
+                <p class="text-xs text-slate-600 dark:text-slate-400">Rolagens na rocha e subidas em Klondike Bluff e Onion Creek Road.</p>
+              </div>
+
+              <div class="skill-card skill-avancado p-4 rounded-2xl bg-slate-100 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700/60">
+                <div class="flex items-center justify-between mb-1">
+                  <span class="font-bold text-slate-900 dark:text-white text-sm"><i class="fa-solid fa-fire text-rust-500 mr-2"></i>Avançado</span>
+                  <span class="text-xs bg-rust-500/20 text-rust-600 dark:text-rust-400 font-bold px-2.5 py-0.5 rounded-full">Especialista</span>
+                </div>
+                <p class="text-xs text-slate-600 dark:text-slate-400">A lendária Trilha Slickrock de 17 km: rocha pura, inclinações extremas e adrenalina.</p>
+              </div>
+            </div>
+          </div>
+
+          <a href="#cadastro" onclick="preselectActivity('bike')" class="w-full text-center py-3.5 rounded-2xl bg-rust-600 hover:bg-rust-700 text-white font-bold text-sm shadow-lg shadow-rust-600/20 transition-all flex items-center justify-center gap-2">
+            <span>Reservar Tour de Bike</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <!-- CARD 2: SLACKLINE / HIGHLINE -->
+        <div class="glass-card rounded-3xl p-8 shadow-xl relative overflow-hidden flex flex-col justify-between border border-slate-200 dark:border-slate-800">
+          <div class="absolute top-0 right-0 w-32 h-32 bg-canyon-500/10 rounded-bl-full pointer-events-none"></div>
+
+          <div>
+            <div class="flex items-center gap-4 mb-6">
+              <div class="w-14 h-14 rounded-2xl bg-canyon-500 text-white flex items-center justify-center text-2xl shadow-lg shadow-canyon-500/30">
+                <i class="fa-solid fa-person-walking-with-cane"></i>
+              </div>
+              <div>
+                <h3 class="font-display text-3xl font-bold text-slate-900 dark:text-white uppercase">Slackline & Highline</h3>
+                <span class="text-xs font-semibold text-canyon-600 dark:text-canyon-400">Fita de equilíbrio sobre o abismo</span>
+              </div>
+            </div>
+
+            <p class="text-slate-600 dark:text-slate-300 leading-relaxed mb-6">
+              Caminhar e se equilibrar sobre uma fita de 2,5 a 5 cm esticada no ar. Trabalha foco, força abdominal e postura, em um treinamento seguro e transformador.
+            </p>
+
+            <div class="space-y-3 mb-8">
+              <div class="skill-card skill-iniciante p-4 rounded-2xl bg-slate-100 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700/60">
+                <div class="flex items-center justify-between mb-1">
+                  <span class="font-bold text-slate-900 dark:text-white text-sm"><i class="fa-solid fa-shoe-prints text-emerald-500 mr-2"></i>Trickline / Longline</span>
+                  <span class="text-xs bg-emerald-500/20 text-emerald-600 dark:text-emerald-400 font-bold px-2.5 py-0.5 rounded-full">Fita Baixa</span>
+                </div>
+                <p class="text-xs text-slate-600 dark:text-slate-400">Treino na base para aprender em poucas horas: postura, caminhada e pequenas manobras.</p>
+              </div>
+
+              <div class="skill-card skill-intermediario skill-avancado p-4 rounded-2xl bg-slate-100 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700/60">
+                <div class="flex items-center justify-between mb-1">
+                  <span class="font-bold text-slate-900 dark:text-white text-sm"><i class="fa-solid fa-cloud text-canyon-500 mr-2"></i>Highline nos Cânions</span>
+                  <span class="text-xs bg-canyon-500/20 text-canyon-600 dark:text-canyon-400 font-bold px-2.5 py-0.5 rounded-full">Fita em Altura</span>
+                </div>
+                <p class="text-xs text-slate-600 dark:text-slate-400">Com uso obrigatório de cadeirinha, leash e corda dupla de segurança certificada.</p>
+              </div>
+
+              <div class="skill-card skill-iniciante skill-intermediario skill-avancado p-4 rounded-2xl bg-slate-100 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700/60">
+                <div class="flex items-center justify-between mb-1">
+                  <span class="font-bold text-slate-900 dark:text-white text-sm"><i class="fa-solid fa-bridge text-purple-500 mr-2"></i>Skywalk Exclusivo</span>
+                  <span class="text-xs bg-purple-500/20 text-purple-600 dark:text-purple-400 font-bold px-2.5 py-0.5 rounded-full">Sem Experiência</span>
+                </div>
+                <p class="text-xs text-slate-600 dark:text-slate-400">Travessia guiada sobre o cânion onde qualquer pessoa pode andar com suporte total da fita.</p>
+              </div>
+            </div>
+          </div>
+
+          <a href="#cadastro" onclick="preselectActivity('slack')" class="w-full text-center py-3.5 rounded-2xl bg-canyon-500 hover:bg-canyon-600 text-white font-bold text-sm shadow-lg shadow-canyon-500/20 transition-all flex items-center justify-center gap-2">
+            <span>Reservar Highline</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= COMO FUNCIONA / ROTAS ================= -->
+  <section id="como" class="py-20 bg-slate-100 dark:bg-[#0E171D] border-y border-slate-200 dark:border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-canyon-600 dark:text-canyon-400 font-extrabold uppercase tracking-widest text-xs bg-canyon-500/10 px-4 py-1.5 rounded-full inline-block mb-3">Passo a Passo</span>
+        <h2 class="font-display text-4xl sm:text-5xl font-extrabold uppercase tracking-tight text-slate-900 dark:text-white">Como e Onde Acontece</h2>
+        <p class="text-slate-600 dark:text-slate-300 text-base mt-2">
+          Nossa logística completa cuidará do seu transporte, segurança e ajuste de equipamentos do início ao fim.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        
+        <!-- Timeline Bike -->
+        <div class="bg-white dark:bg-slate-900/90 rounded-3xl p-8 border border-slate-200 dark:border-slate-800 shadow-xl">
+          <div class="flex items-center justify-between pb-6 border-b border-slate-200 dark:border-slate-800 mb-6">
+            <h3 class="font-display text-2xl font-bold text-rust-600 dark:text-rust-500 flex items-center gap-3">
+              <i class="fa-solid fa-bicycle"></i>
+              <span>Mountain Bike na Trilha</span>
+            </h3>
+            <span class="text-xs bg-rust-500/10 text-rust-600 dark:text-rust-400 font-bold px-3 py-1 rounded-full">Duração: ~5h30</span>
+          </div>
+
+          <ol class="relative border-l-2 border-rust-500/30 dark:border-rust-500/20 ml-4 space-y-6">
+            <li class="pl-6 relative">
+              <span class="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-rust-500 ring-4 ring-white dark:ring-slate-900"></span>
+              <h4 class="font-bold text-slate-900 dark:text-white text-sm">1. Chegada à Base & Ajuste</h4>
+              <p class="text-xs text-slate-600 dark:text-slate-400 mt-1">Ajuste individual das bicicletas de suspensão total e capacetes (15 min).</p>
+            </li>
+            <li class="pl-6 relative">
+              <span class="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-rust-500 ring-4 ring-white dark:ring-slate-900"></span>
+              <h4 class="font-bold text-slate-900 dark:text-white text-sm">2. Safety Briefing</h4>
+              <p class="text-xs text-slate-600 dark:text-slate-400 mt-1">Orientação sobre preservação da crosta biológica e regras do deserto (10 min).</p>
+            </li>
+            <li class="pl-6 relative">
+              <span class="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-rust-500 ring-4 ring-white dark:ring-slate-900"></span>
+              <h4 class="font-bold text-slate-900 dark:text-white text-sm">3. Transporte em Van Climatizada</h4>
+              <p class="text-xs text-slate-600 dark:text-slate-400 mt-1">Levamos o grupo até Dead Horse Point, Klondike Bluff, Bar M ou Slickrock.</p>
+            </li>
+            <li class="pl-6 relative">
+              <span class="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-rust-500 ring-4 ring-white dark:ring-slate-900"></span>
+              <h4 class="font-bold text-slate-900 dark:text-white text-sm">4. Pedal em Grupo Guiado</h4>
+              <p class="text-xs text-slate-600 dark:text-slate-400 mt-1">Paradas estratégicas para água, lanche e fotos panorâmicas nos precipícios.</p>
+            </li>
+          </ol>
+
+          <div class="mt-6 pt-4 border-t border-slate-100 dark:border-slate-800 text-xs text-slate-500 dark:text-slate-400 flex items-center justify-between">
+            <span><i class="fa-solid fa-users text-rust-500 mr-1"></i>Máx. 6 ciclistas por guia</span>
+            <span><i class="fa-solid fa-bolt text-sand-500 mr-1"></i>Opção E-Bike disponível</span>
+          </div>
+        </div>
+
+        <!-- Timeline Highline -->
+        <div class="bg-white dark:bg-slate-900/90 rounded-3xl p-8 border border-slate-200 dark:border-slate-800 shadow-xl">
+          <div class="flex items-center justify-between pb-6 border-b border-slate-200 dark:border-slate-800 mb-6">
+            <h3 class="font-display text-2xl font-bold text-canyon-600 dark:text-canyon-400 flex items-center gap-3">
+              <i class="fa-solid fa-person-walking-arrow-right"></i>
+              <span>Highline & Skywalk</span>
+            </h3>
+            <span class="text-xs bg-canyon-500/10 text-canyon-600 dark:text-canyon-400 font-bold px-3 py-1 rounded-full">Duração: ~8h00</span>
+          </div>
+
+          <ol class="relative border-l-2 border-canyon-500/30 dark:border-canyon-500/20 ml-4 space-y-6">
+            <li class="pl-6 relative">
+              <span class="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-canyon-500 ring-4 ring-white dark:ring-slate-900"></span>
+              <h4 class="font-bold text-slate-900 dark:text-white text-sm">1. Saída da Cidade</h4>
+              <p class="text-xs text-slate-600 dark:text-slate-400 mt-1">Encontro na Main Street e deslocamento até o cânion reservado.</p>
+            </li>
+            <li class="pl-6 relative">
+              <span class="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-canyon-500 ring-4 ring-white dark:ring-slate-900"></span>
+              <h4 class="font-bold text-slate-900 dark:text-white text-sm">2. Montagem e Instrução em Solo</h4>
+              <p class="text-xs text-slate-600 dark:text-slate-400 mt-1">Treino de nós, encaixe de cadeirinha e cabo de segurança duplo (leash).</p>
+            </li>
+            <li class="pl-6 relative">
+              <span class="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-canyon-500 ring-4 ring-white dark:ring-slate-900"></span>
+              <h4 class="font-bold text-slate-900 dark:text-white text-sm">3. Progressão na Fita</h4>
+              <p class="text-xs text-slate-600 dark:text-slate-400 mt-1">Aprenda a sentar, engatinhar, rolar, levantar e retornar após uma queda.</p>
+            </li>
+            <li class="pl-6 relative">
+              <span class="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-canyon-500 ring-4 ring-white dark:ring-slate-900"></span>
+              <h4 class="font-bold text-slate-900 dark:text-white text-sm">4. Controle Mental & Travessia</h4>
+              <p class="text-xs text-slate-600 dark:text-slate-400 mt-1">Superação de medo de altura sob a supervisão calma e constante do instrutor.</p>
+            </li>
+          </ol>
+
+          <div class="mt-6 pt-4 border-t border-slate-100 dark:border-slate-800 text-xs text-slate-500 dark:text-slate-400 flex items-center justify-between">
+            <span><i class="fa-solid fa-users text-canyon-500 mr-1"></i>Até 10 alunos p/ curso</span>
+            <span><i class="fa-solid fa-shield-heart text-emerald-500 mr-1"></i>100% Retenção Dupla</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TESTIMONIALS (MUITO APARENTES + DEPOIMENTOS SALVOS) ================= -->
+  <section id="comentarios" class="py-20 bg-gradient-to-b from-slate-900 to-slate-950 text-white relative overflow-hidden">
+    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-rust-600/10 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-sand-500/20 text-sand-400 font-extrabold uppercase tracking-widest text-xs mb-3 border border-sand-500/30">
+          <i class="fa-solid fa-star"></i>
+          <span>Experiências Reais</span>
+        </div>
+        <h2 class="font-display text-4xl sm:text-6xl font-extrabold uppercase tracking-tight">O Que Dizem Nossos Aventureiros</h2>
+        <p class="text-slate-300 text-lg mt-3">
+          Veja a opinião de quem viveu a adrenalina da rocha e da fita conosco em Moab.
+        </p>
+      </div>
+
+      <!-- Testimonial Filter Buttons -->
+      <div class="flex flex-wrap justify-center gap-2 mb-12">
+        <button onclick="filterReviews('all')" id="revFilter-all" class="rev-filter-btn px-4 py-2 rounded-xl text-xs font-bold bg-rust-600 text-white shadow-md">Todos os Depoimentos</button>
+        <button onclick="filterReviews('bike')" id="revFilter-bike" class="rev-filter-btn px-4 py-2 rounded-xl text-xs font-bold bg-slate-800 text-slate-300 hover:text-white">Ciclismo</button>
+        <button onclick="filterReviews('highline')" id="revFilter-highline" class="rev-filter-btn px-4 py-2 rounded-xl text-xs font-bold bg-slate-800 text-slate-300 hover:text-white">Highline</button>
+        <button onclick="filterReviews('family')" id="revFilter-family" class="rev-filter-btn px-4 py-2 rounded-xl text-xs font-bold bg-slate-800 text-slate-300 hover:text-white">Família & Grupos</button>
+      </div>
+
+      <!-- Testimonials Grid Container -->
+      <div id="reviewsGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+        
+        <!-- Review Card 1 -->
+        <div class="review-card rev-bike p-6 rounded-3xl bg-slate-800/80 backdrop-blur border border-slate-700/80 shadow-2xl flex flex-col justify-between transform transition duration-300 hover:-translate-y-1">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <div class="flex text-sand-400 text-sm gap-1">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <span class="text-[10px] bg-rust-500/20 text-rust-300 font-bold px-2.5 py-1 rounded-full uppercase">Mountain Bike</span>
+            </div>
+            <p class="text-slate-200 text-base italic leading-relaxed mb-6">
+              "Minha primeira vez pedalando na rocha slickrock e o guia fez parecer incrivelmente fácil. A tração do pneu na pedra é surreal e a vista dos mirantes tira o fôlego!"
+            </p>
+          </div>
+          <div class="flex items-center gap-3 pt-4 border-t border-slate-700/60">
+            <div class="w-11 h-11 rounded-full bg-gradient-to-tr from-rust-500 to-sand-500 flex items-center justify-center font-bold text-white text-base">
+              MT
+            </div>
+            <div>
+              <h4 class="font-bold text-white text-sm">Mark T.</h4>
+              <span class="text-xs text-slate-400">Denver, Colorado</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review Card 2 -->
+        <div class="review-card rev-family rev-highline p-6 rounded-3xl bg-slate-800/80 backdrop-blur border border-slate-700/80 shadow-2xl flex flex-col justify-between transform transition duration-300 hover:-translate-y-1">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <div class="flex text-sand-400 text-sm gap-1">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <span class="text-[10px] bg-canyon-500/20 text-canyon-300 font-bold px-2.5 py-1 rounded-full uppercase">Slackline Família</span>
+            </div>
+            <p class="text-slate-200 text-base italic leading-relaxed mb-6">
+              "Caí da fita umas dez vezes e ri em todas! Os instrutores deixaram minhas filhas super tranquilas. Foi a atividade mais memorável da nossa viagem em família."
+            </p>
+          </div>
+          <div class="flex items-center gap-3 pt-4 border-t border-slate-700/60">
+            <div class="w-11 h-11 rounded-full bg-gradient-to-tr from-canyon-500 to-emerald-500 flex items-center justify-center font-bold text-white text-base">
+              AP
+            </div>
+            <div>
+              <h4 class="font-bold text-white text-sm">Ana & Pedro</h4>
+              <span class="text-xs text-slate-400">São Paulo, SP</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review Card 3 -->
+        <div class="review-card rev-highline p-6 rounded-3xl bg-slate-800/80 backdrop-blur border border-slate-700/80 shadow-2xl flex flex-col justify-between transform transition duration-300 hover:-translate-y-1">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <div class="flex text-sand-400 text-sm gap-1">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <span class="text-[10px] bg-purple-500/20 text-purple-300 font-bold px-2.5 py-1 rounded-full uppercase">Highline Pôr do Sol</span>
+            </div>
+            <p class="text-slate-200 text-base italic leading-relaxed mb-6">
+              "Fazer o Highline ao pôr do sol preso com a cadeirinha e com a instrução calma da Sofia foi transformador. Me senti 100% seguro durante todo o processo."
+            </p>
+          </div>
+          <div class="flex items-center gap-3 pt-4 border-t border-slate-700/60">
+            <div class="w-11 h-11 rounded-full bg-gradient-to-tr from-purple-500 to-rust-500 flex items-center justify-center font-bold text-white text-base">
+              LM
+            </div>
+            <div>
+              <h4 class="font-bold text-white text-sm">Luis M.</h4>
+              <span class="text-xs text-slate-400">Campinas, SP</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Add Review Interactive Form Accordion -->
+      <div class="max-w-2xl mx-auto bg-slate-800/60 backdrop-blur border border-slate-700/60 rounded-3xl p-6 shadow-xl">
+        <div class="flex items-center justify-between cursor-pointer" onclick="toggleAddReviewForm()">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-2xl bg-rust-500/20 text-rust-400 flex items-center justify-center">
+              <i class="fa-solid fa-comment-medical text-lg"></i>
+            </div>
+            <div>
+              <h3 class="font-bold text-white text-base">Já viajou com a gente?</h3>
+              <p class="text-xs text-slate-400">Clique para deixar seu depoimento e avaliação (salvo localmente)</p>
+            </div>
+          </div>
+          <i id="reviewChevron" class="fa-solid fa-chevron-down text-slate-400 transition-transform"></i>
+        </div>
+
+        <form id="addReviewForm" onsubmit="handleNewReview(event)" class="hidden mt-6 pt-6 border-t border-slate-700/60 space-y-4">
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-xs font-semibold text-slate-300 mb-1">Seu Nome</label>
+              <input type="text" id="revName" required placeholder="Ex: Lucas Silva" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:border-rust-500">
+            </div>
+            <div>
+              <label class="block text-xs font-semibold text-slate-300 mb-1">Sua Cidade / País</label>
+              <input type="text" id="revCity" required placeholder="Ex: Curitiba, Brasil" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:border-rust-500">
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-xs font-semibold text-slate-300 mb-1">Atividade Realizada</label>
+              <select id="revCategory" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:border-rust-500">
+                <option value="bike">Mountain Bike</option>
+                <option value="highline">Highline / Skywalk</option>
+                <option value="family">Combo Família</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-xs font-semibold text-slate-300 mb-1">Nota da Experiência</label>
+              <select id="revRating" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:border-rust-500">
+                <option value="5">★★★★★ (5/5 Excelente)</option>
+                <option value="4">★★★★☆ (4/5 Muito Bom)</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-xs font-semibold text-slate-300 mb-1">Seu Comentário</label>
+            <textarea id="revText" required rows="3" placeholder="Conte como foi sua experiência em Moab..." class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:border-rust-500"></textarea>
+          </div>
+
+          <button type="submit" class="w-full py-3 rounded-xl bg-rust-600 hover:bg-rust-500 font-bold text-sm text-white shadow-lg transition-all">
+            Publicar Depoimento
+          </button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= PREÇOS & CALCULADORA INTERATIVA ================= -->
+  <section id="precos" class="py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-rust-600 dark:text-rust-500 font-extrabold uppercase tracking-widest text-xs bg-rust-500/10 px-4 py-1.5 rounded-full inline-block mb-3">Transparência Garantida</span>
+        <h2 class="font-display text-4xl sm:text-6xl font-extrabold uppercase tracking-tight text-slate-900 dark:text-white">Preços e Opções de Pacotes</h2>
+        <p class="text-slate-600 dark:text-slate-300 text-base mt-2">
+          Valores pesquisados em empresas reais de Moab e convertidos para Reais a <b>US$ 1 = R$ 5,11</b> (Cotação PTAX de referência).
+        </p>
+      </div>
+
+      <!-- Price Category Tabs -->
+      <div class="flex flex-wrap justify-center gap-2 mb-8" id="priceTabs">
+        <button onclick="switchPriceTab('bike')" id="tab-bike" class="price-tab active px-6 py-3 rounded-2xl font-bold text-sm bg-rust-600 text-white shadow-lg shadow-rust-600/20">Ciclismo & Guias</button>
+        <button onclick="switchPriceTab('slack')" id="tab-slack" class="price-tab px-6 py-3 rounded-2xl font-bold text-sm bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300">Highline & Cânion</button>
+        <button onclick="switchPriceTab('combo')" id="tab-combo" class="price-tab px-6 py-3 rounded-2xl font-bold text-sm bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300">Pacotes Combo</button>
+        <button onclick="switchPriceTab('extra')" id="tab-extra" class="price-tab px-6 py-3 rounded-2xl font-bold text-sm bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300">Hospedagem</button>
+      </div>
+
+      <!-- Pricing Table Container -->
+      <div class="glass-card rounded-3xl overflow-hidden border border-slate-200 dark:border-slate-800 shadow-2xl mb-12">
+        <div class="overflow-x-auto">
+          <table class="w-full text-left border-collapse min-w-[700px]">
+            <thead>
+              <tr class="bg-rust-600 text-white font-display text-base tracking-wider uppercase">
+                <th class="py-4 px-6">Experiência / Serviço</th>
+                <th class="py-4 px-6">O que inclui</th>
+                <th class="py-4 px-6">Empresa Referência</th>
+                <th class="py-4 px-6">US$</th>
+                <th class="py-4 px-6">R$ (Aprox.)</th>
+              </tr>
+            </thead>
+            <tbody id="priceTableRows" class="divide-y divide-slate-200 dark:divide-slate-800/60 text-sm">
+              <!-- Populated via JavaScript -->
+            </tbody>
+          </table>
+        </div>
+        <div id="priceNote" class="p-4 bg-slate-100 dark:bg-slate-900/80 text-xs text-slate-600 dark:text-slate-400 border-t border-slate-200 dark:border-slate-800 italic">
+          <!-- Populated via JavaScript -->
+        </div>
+      </div>
+
+      <!-- INTERACTIVE ESTIMATOR WIDGET -->
+      <div class="bg-gradient-to-r from-rust-900/90 via-slate-900 to-canyon-900 p-8 rounded-3xl border border-rust-500/30 text-white shadow-2xl">
+        <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-8">
+          <div>
+            <span class="text-sand-400 font-bold uppercase tracking-wider text-xs block mb-1">Ferramenta Interativa</span>
+            <h3 class="font-display text-3xl font-extrabold uppercase">Calculadora Rápida de Aventura</h3>
+            <p class="text-slate-300 text-sm mt-1 max-w-lg">
+              Selecione o número de pessoas e sua atividade para ter uma estimativa em tempo real em dólar e reais.
+            </p>
+          </div>
+
+          <div class="flex-1 max-w-xl grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-xs font-semibold text-slate-300 mb-1">Selecione o Pacote</label>
+              <select id="calcPackage" onchange="calculateEstimate()" class="w-full bg-slate-900/90 border border-slate-700 rounded-xl px-3 py-2.5 text-xs text-white focus:outline-none focus:border-rust-500">
+                <option value="189">Tour Guiado de Bike (US$ 189/p)</option>
+                <option value="289">Tour Bike + Aluguel Completo (US$ 289/p)</option>
+                <option value="350">Curso Highline 8h - 2 Pessoas (US$ 350/p)</option>
+                <option value="250">Curso Highline 8h - 3+ Pessoas (US$ 250/p)</option>
+                <option value="539">Combo Bike + Highline (US$ 539/p)</option>
+              </select>
+            </div>
+
+            <div>
+              <label class="block text-xs font-semibold text-slate-300 mb-1">Nº de Participantes</label>
+              <input type="number" id="calcPeople" min="1" max="15" value="2" onchange="calculateEstimate()" onkeyup="calculateEstimate()" class="w-full bg-slate-900/90 border border-slate-700 rounded-xl px-3 py-2.5 text-xs text-white focus:outline-none focus:border-rust-500">
+            </div>
+          </div>
+        </div>
+
+        <!-- Calculated Results Display -->
+        <div class="mt-6 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div class="flex items-center gap-6">
+            <div>
+              <span class="text-xs text-slate-400 uppercase font-semibold">Valor Total em US$</span>
+              <div id="calcTotalUSD" class="text-3xl font-extrabold text-sand-400">US$ 700</div>
+            </div>
+            <div class="h-8 w-px bg-slate-700"></div>
+            <div>
+              <span class="text-xs text-slate-400 uppercase font-semibold">Valor Total em R$</span>
+              <div id="calcTotalBRL" class="text-3xl font-extrabold text-emerald-400">R$ 3.577,00</div>
+            </div>
+          </div>
+
+          <a href="#cadastro" onclick="transferEstimateToBooking()" class="px-6 py-3 rounded-xl bg-rust-500 hover:bg-rust-600 text-white font-bold text-sm shadow-lg transition-all flex items-center gap-2">
+            <span>Usar Esta Estimativa na Reserva</span>
+            <i class="fa-solid fa-arrow-down"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= EQUIPE SECTION ================= -->
+  <section id="equipe" class="py-20 bg-slate-100 dark:bg-[#0E171D] border-y border-slate-200 dark:border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-rust-600 dark:text-rust-500 font-extrabold uppercase tracking-widest text-xs bg-rust-500/10 px-4 py-1.5 rounded-full inline-block mb-3">Especialistas Locais</span>
+        <h2 class="font-display text-4xl sm:text-5xl font-extrabold uppercase tracking-tight text-slate-900 dark:text-white">Quem Faz a Aventura Acontecer</h2>
+        <p class="text-slate-600 dark:text-slate-300 text-base mt-2">
+          Uma equipe unida por quem vive de pedal, fita e resgate nas formações rochosas de Moab.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <!-- Member 1 -->
+        <div class="glass-card rounded-3xl p-6 border border-slate-200 dark:border-slate-800 text-center flex flex-col items-center group hover:scale-105 transition-transform duration-300">
+          <div class="w-24 h-24 rounded-full overflow-hidden mb-4 ring-4 ring-rust-500/30 group-hover:ring-rust-500 transition-all">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80" alt="Jake Morrison" class="w-full h-full object-cover" onerror="this.src='https://placehold.co/300x300/a63f1d/ffffff?text=Jake'">
+          </div>
+          <h3 class="font-bold text-xl text-slate-900 dark:text-white">Jake Morrison</h3>
+          <span class="text-xs font-bold text-rust-600 dark:text-rust-400 mb-3 block">Fundador & Guia de Ciclismo</span>
+          <p class="text-xs text-slate-600 dark:text-slate-400 leading-relaxed">
+            Pedala na slickrock há 15 anos. Conhece cada centímetro das trilhas e adapta a rota ao nível do grupo.
+          </p>
+        </div>
+
+        <!-- Member 2 -->
+        <div class="glass-card rounded-3xl p-6 border border-slate-200 dark:border-slate-800 text-center flex flex-col items-center group hover:scale-105 transition-transform duration-300">
+          <div class="w-24 h-24 rounded-full overflow-hidden mb-4 ring-4 ring-canyon-500/30 group-hover:ring-canyon-500 transition-all">
+            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80" alt="Sofia Alvarez" class="w-full h-full object-cover" onerror="this.src='https://placehold.co/300x300/1f6f78/ffffff?text=Sofia'">
+          </div>
+          <h3 class="font-bold text-xl text-slate-900 dark:text-white">Sofia Alvarez</h3>
+          <span class="text-xs font-bold text-canyon-600 dark:text-canyon-400 mb-3 block">Instrutora de Highline</span>
+          <p class="text-xs text-slate-600 dark:text-slate-400 leading-relaxed">
+            Slackliner há 10 anos, certificada em montagem de linhas de altura. Lidera as aulas com calma contagiante.
+          </p>
+        </div>
+
+        <!-- Member 3 -->
+        <div class="glass-card rounded-3xl p-6 border border-slate-200 dark:border-slate-800 text-center flex flex-col items-center group hover:scale-105 transition-transform duration-300">
+          <div class="w-24 h-24 rounded-full overflow-hidden mb-4 ring-4 ring-emerald-500/30 group-hover:ring-emerald-500 transition-all">
+            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=300&q=80" alt="Dana Whitfield" class="w-full h-full object-cover" onerror="this.src='https://placehold.co/300x300/10b981/ffffff?text=Dana'">
+          </div>
+          <h3 class="font-bold text-xl text-slate-900 dark:text-white">Dana Whitfield</h3>
+          <span class="text-xs font-bold text-emerald-600 dark:text-emerald-400 mb-3 block">Chefe de Segurança</span>
+          <p class="text-xs text-slate-600 dark:text-slate-400 leading-relaxed">
+            Socorrista de resgate em áreas remotas. Inspeciona todos os equipamentos e treina a equipe em primeiros socorros.
+          </p>
+        </div>
+
+        <!-- Member 4 -->
+        <div class="glass-card rounded-3xl p-6 border border-slate-200 dark:border-slate-800 text-center flex flex-col items-center group hover:scale-105 transition-transform duration-300">
+          <div class="w-24 h-24 rounded-full overflow-hidden mb-4 ring-4 ring-sand-500/30 group-hover:ring-sand-500 transition-all">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q=80" alt="Tom Reyes" class="w-full h-full object-cover" onerror="this.src='https://placehold.co/300x300/f2b33d/ffffff?text=Tom'">
+          </div>
+          <h3 class="font-bold text-xl text-slate-900 dark:text-white">Tom Reyes</h3>
+          <span class="text-xs font-bold text-sand-600 dark:text-sand-400 mb-3 block">Logística & Atendimento</span>
+          <p class="text-xs text-slate-600 dark:text-slate-400 leading-relaxed">
+            Cuida da frota de vans, agendamentos e garante que todas as mensagens dos clientes sejam respondidas em até 24h.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PERGUNTAS FREQUENTES / FAQ (PARA INDEXAÇÃO SEO) ================= -->
+  <section id="faq" class="py-20">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center mb-16">
+        <span class="text-canyon-600 dark:text-canyon-400 font-extrabold uppercase tracking-widest text-xs bg-canyon-500/10 px-4 py-1.5 rounded-full inline-block mb-3">Tire Suas Dúvidas</span>
+        <h2 class="font-display text-4xl sm:text-5xl font-extrabold uppercase tracking-tight text-slate-900 dark:text-white">Perguntas Frequentes</h2>
+      </div>
+
+      <div class="space-y-4">
+        
+        <!-- FAQ 1 -->
+        <div class="glass-card rounded-2xl border border-slate-200 dark:border-slate-800 p-6 cursor-pointer" onclick="toggleFaq(this)">
+          <div class="flex items-center justify-between font-bold text-slate-900 dark:text-white text-base">
+            <span>Preciso ter experiência prévia com Highline para participar?</span>
+            <i class="fa-solid fa-chevron-down text-rust-500 transition-transform"></i>
+          </div>
+          <p class="hidden text-xs sm:text-sm text-slate-600 dark:text-slate-300 mt-3 leading-relaxed">
+            Não! Nosso curso de Highline de 8 horas e o programa Skywalk foram especialmente desenvolvidos para iniciantes. Começamos com treinamento em fita baixa no solo e progredimos gradualmente com sistema de retenção dupla e guias certificados.
+          </p>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="glass-card rounded-2xl border border-slate-200 dark:border-slate-800 p-6 cursor-pointer" onclick="toggleFaq(this)">
+          <div class="flex items-center justify-between font-bold text-slate-900 dark:text-white text-base">
+            <span>O aluguel da bicicleta e capacete está incluído?</span>
+            <i class="fa-solid fa-chevron-down text-rust-500 transition-transform"></i>
+          </div>
+          <p class="hidden text-xs sm:text-sm text-slate-600 dark:text-slate-300 mt-3 leading-relaxed">
+            Nos passeios da modalidade "Com Bike Alugada", fornecemos bicicletas mountain bike de suspensão total (full-suspension), capacetes e kits de reparo. Se você já tiver seu próprio equipamento, pode escolher a opção apenas com o guia.
+          </p>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="glass-card rounded-2xl border border-slate-200 dark:border-slate-800 p-6 cursor-pointer" onclick="toggleFaq(this)">
+          <div class="flex items-center justify-between font-bold text-slate-900 dark:text-white text-base">
+            <span>Qual é a política de cancelamento das reservas?</span>
+            <i class="fa-solid fa-chevron-down text-rust-500 transition-transform"></i>
+          </div>
+          <p class="hidden text-xs sm:text-sm text-slate-600 dark:text-slate-300 mt-3 leading-relaxed">
+            Você pode cancelar sem custo qualquer agendamento com até 72 horas de antecedência em relação ao dia da atividade.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= LOCALIZAÇÃO & SUSTENTABILIDADE ================= -->
+  <section id="moab" class="py-20 bg-slate-100 dark:bg-[#0E171D] border-t border-slate-200 dark:border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <span class="text-rust-600 dark:text-rust-500 font-extrabold uppercase tracking-widest text-xs bg-rust-500/10 px-4 py-1.5 rounded-full inline-block mb-3">Capital Mundial da Aventura</span>
+          <h2 class="font-display text-4xl sm:text-5xl font-extrabold uppercase tracking-tight text-slate-900 dark:text-white mb-6">Por que Moab é o Lugar Certo</h2>
+          <p class="text-slate-600 dark:text-slate-300 leading-relaxed mb-6">
+            Moab fica no sudeste de Utah, espremida entre dois parques nacionais icônicos (<b>Arches</b> e <b>Canyonlands</b>) e acompanhada pelo majestoso Rio Colorado.
+          </p>
+          <p class="text-slate-600 dark:text-slate-300 leading-relaxed mb-8">
+            Nossa base fica centralizada na Main Street: você pode ir a pé a restaurantes locais, alugar equipamentos e chegar a qualquer início de trilha em menos de 30 minutos de van.
+          </p>
+
+          <div class="space-y-4">
+            <div class="flex items-start gap-4 p-4 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-md">
+              <div class="w-10 h-10 rounded-xl bg-rust-500/20 text-rust-500 flex items-center justify-center shrink-0">
+                <i class="fa-solid fa-route text-lg"></i>
+              </div>
+              <div>
+                <h3 class="font-bold text-slate-900 dark:text-white text-sm">Trilha Slickrock</h3>
+                <p class="text-xs text-slate-500 dark:text-slate-400">O circuito clássico de 17 km sobre arenito puro, mundialmente famoso para ciclistas.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4 p-4 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-md">
+              <div class="w-10 h-10 rounded-xl bg-canyon-500/20 text-canyon-500 flex items-center justify-center shrink-0">
+                <i class="fa-solid fa-leaf text-lg"></i>
+              </div>
+              <div>
+                <h3 class="font-bold text-slate-900 dark:text-white text-sm">Respeito e Proteção ao Deserto</h3>
+                <p class="text-xs text-slate-500 dark:text-slate-400">Usamos protetores de tronco em ancoragens e respeitamos a crosta biológica do arenito.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Visual Map Card -->
+        <div class="relative rounded-3xl overflow-hidden shadow-2xl border border-slate-200 dark:border-slate-800 h-[480px]">
+          <img 
+            src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1000&q=80" 
+            alt="Moab Utah Red Rocks" 
+            class="w-full h-full object-cover"
+            onerror="this.src='https://placehold.co/800x1000/a63f1d/ffffff?text=Moab+Utah'"
+          />
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/30 to-transparent"></div>
+          
+          <div class="absolute bottom-8 left-8 right-8 text-white">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sand-500 text-slate-950 text-xs font-bold mb-3">
+              <i class="fa-solid fa-compass"></i>
+              <span>Localização Privilegiada</span>
+            </div>
+            <h3 class="font-display text-3xl font-bold uppercase mb-1">Moab, Utah • 84532 - EUA</h3>
+            <p class="text-xs text-slate-300">Main Street • Todos os dias das 6h30 às 18h</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FORMULÁRIO DE CADASTRO E RESERVA INTERATIVO ================= -->
+  <section id="cadastro" class="py-20 bg-slate-900 text-white relative">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="bg-slate-800/90 backdrop-blur border border-slate-700/80 rounded-3xl p-8 sm:p-12 shadow-2xl relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-40 h-40 bg-rust-500/10 rounded-bl-full pointer-events-none"></div>
+
+        <div class="text-center mb-10">
+          <span class="text-sand-400 font-extrabold uppercase tracking-widest text-xs bg-sand-500/10 px-4 py-1.5 rounded-full inline-block mb-3 border border-sand-500/20">Garanta Sua Vaga</span>
+          <h2 class="font-display text-4xl sm:text-5xl font-extrabold uppercase tracking-tight">Cadastro & Pedido de Reserva</h2>
+          <p class="text-slate-300 text-sm mt-2">
+            Preencha os dados abaixo. Sua solicitação será registrada e nossa equipe responderá em até <b>24 horas</b>.
+          </p>
+        </div>
+
+        <form id="bookingForm" onsubmit="handleBookingSubmit(event)" class="space-y-6">
+          
+          <!-- Personal Info Row -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div>
+              <label class="block text-xs font-semibold text-slate-300 mb-2">Nome Completo *</label>
+              <input type="text" id="bookName" required placeholder="Ex: Carlos Eduardo" class="w-full bg-slate-900/90 border border-slate-700 rounded-2xl px-4 py-3 text-sm text-white focus:outline-none focus:border-rust-500">
+            </div>
+
+            <div>
+              <label class="block text-xs font-semibold text-slate-300 mb-2">E-mail para Confirmação *</label>
+              <input type="email" id="bookEmail" required placeholder="seuemail@exemplo.com" class="w-full bg-slate-900/90 border border-slate-700 rounded-2xl px-4 py-3 text-sm text-white focus:outline-none focus:border-rust-500">
+            </div>
+          </div>
+
+          <!-- Phone & City Row -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div>
+              <label class="block text-xs font-semibold text-slate-300 mb-2">WhatsApp / Telefone com DDD *</label>
+              <input type="tel" id="bookPhone" required placeholder="(11) 99999-9999" class="w-full bg-slate-900/90 border border-slate-700 rounded-2xl px-4 py-3 text-sm text-white focus:outline-none focus:border-rust-500">
+            </div>
+
+            <div>
+              <label class="block text-xs font-semibold text-slate-300 mb-2">Sua Cidade / Estado</label>
+              <input type="text" id="bookCity" placeholder="Ex: Rio de Janeiro, RJ" class="w-full bg-slate-900/90 border border-slate-700 rounded-2xl px-4 py-3 text-sm text-white focus:outline-none focus:border-rust-500">
+            </div>
+          </div>
+
+          <!-- Activity Details Row -->
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+            <div>
+              <label class="block text-xs font-semibold text-slate-300 mb-2">Experiência Desejada *</label>
+              <select id="bookActivity" required class="w-full bg-slate-900/90 border border-slate-700 rounded-2xl px-4 py-3 text-sm text-white focus:outline-none focus:border-rust-500">
+                <option value="bike">Mountain Bike Guiado</option>
+                <option value="bike_rental">Tour de Bike + Aluguel de Bike</option>
+                <option value="highline">Curso de Highline (8 horas)</option>
+                <option value="skywalk">Skywalk Travessia Cânion</option>
+                <option value="combo">Combo Completo (Bike + Highline)</option>
+              </select>
+            </div>
+
+            <div>
+              <label class="block text-xs font-semibold text-slate-300 mb-2">Data Pretendida *</label>
+              <input type="date" id="bookDate" required class="w-full bg-slate-900/90 border border-slate-700 rounded-2xl px-4 py-3 text-sm text-white focus:outline-none focus:border-rust-500">
+            </div>
+
+            <div>
+              <label class="block text-xs font-semibold text-slate-300 mb-2">Nº de Aventureiros *</label>
+              <input type="number" id="bookPeople" min="1" max="20" value="2" required class="w-full bg-slate-900/90 border border-slate-700 rounded-2xl px-4 py-3 text-sm text-white focus:outline-none focus:border-rust-500">
+            </div>
+          </div>
+
+          <!-- Notes Row -->
+          <div>
+            <label class="block text-xs font-semibold text-slate-300 mb-2">Observações / Nível da Equipe / Aluguel de Bike</label>
+            <textarea id="bookNotes" rows="3" placeholder="Informe a altura dos participantes caso vá alugar bicicletas ou se têm experiência com slackline..." class="w-full bg-slate-900/90 border border-slate-700 rounded-2xl px-4 py-3 text-sm text-white focus:outline-none focus:border-rust-500"></textarea>
+          </div>
+
+          <!-- Submit Button -->
+          <button type="submit" class="w-full py-4 rounded-2xl bg-gradient-to-r from-rust-500 to-rust-600 hover:from-rust-600 hover:to-rust-700 font-bold text-lg text-white shadow-2xl shadow-rust-600/50 transition-all flex items-center justify-center gap-3">
+            <i class="fa-solid fa-paper-plane"></i>
+            <span>Enviar Pedido de Reserva Garantida</span>
+          </button>
+
+          <!-- Saved Bookings Count Indicator -->
+          <div id="bookingSavedCount" class="text-center text-xs text-emerald-400 hidden">
+            <i class="fa-solid fa-circle-check mr-1"></i>Você possui agendamentos salvos neste navegador.
+          </div>
+
+          <p class="text-center text-xs text-slate-400 mt-2">
+            Cancelamento gratuito até 72h antes da atividade • Sem cobrança imediata
+          </p>
+
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= FONTES E REFERÊNCIAS DA PESQUISA ================= -->
+  <section id="fontes" class="py-16 bg-slate-100 dark:bg-[#0B1318] border-t border-slate-200 dark:border-slate-800 text-xs text-slate-500 dark:text-slate-400">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h3 class="font-bold text-slate-900 dark:text-slate-200 text-sm mb-3">Fontes dos Preços e Referências Reais de Moab</h3>
+      <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">
+        <li>• Passeios particulares: <a href="https://www.sorrelriver.com/experiences/mountain-biking/" target="_blank" class="text-rust-600 underline">Sorrel River Ranch, Moab</a></li>
+        <li>• Aluguel de bicicletas: <a href="https://tripoutside.com" target="_blank" class="text-rust-600 underline">Rim Cyclery & Double Down Shop</a></li>
+        <li>• Highline e Skywalk: <a href="https://exploreorigin.com" target="_blank" class="text-rust-600 underline">Elevate Outdoors (Moab)</a></li>
+        <li>• Hospedagem de referência: Slackline Moab (Outset Collection)</li>
+        <li>• Câmbio de referência: Cotação PTAX US$ 1 = R$ 5,1111</li>
+      </ul>
+      <p class="mt-4 italic">
+        Slickrock Slack & Cycle Adventures — Site demonstrativo estático otimizado para SEO e indexação web.
+      </p>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="bg-slate-950 text-white py-12 border-t border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-6">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-rust-500 flex items-center justify-center text-white text-lg">
+          <i class="fa-solid fa-mountain-sun"></i>
+        </div>
+        <div>
+          <span class="font-display font-bold text-xl tracking-wider text-white">SLICKROCK SLACK & CYCLE</span>
+          <span class="text-xs text-slate-400 block">Moab, Utah • EUA</span>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-6 text-sm text-slate-400">
+        <span><i class="fa-solid fa-phone text-rust-500 mr-2"></i>(435) 555-0142</span>
+        <span><i class="fa-solid fa-envelope text-rust-500 mr-2"></i>hello@slickrockslackcycle.example</span>
+      </div>
+
+      <div class="text-xs text-slate-500">
+        © 2026 Slickrock Slack & Cycle Adventures. Todos os direitos reservados.
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================= LIGHTBOX IMAGE MODAL ================= -->
+  <div id="lightboxModal" class="fixed inset-0 z-50 bg-slate-950/90 backdrop-blur-md hidden flex items-center justify-center p-4">
+    <div class="relative max-w-4xl w-full bg-slate-900 rounded-3xl overflow-hidden shadow-2xl border border-slate-700">
+      <button onclick="closeLightbox()" class="absolute top-4 right-4 w-10 h-10 rounded-full bg-slate-800 text-white flex items-center justify-center hover:bg-rust-600 transition-colors z-10">
+        <i class="fa-solid fa-xmark text-lg"></i>
+      </button>
+      <img id="lightboxImg" src="" alt="" class="w-full max-h-[75vh] object-cover">
+      <div class="p-6 bg-slate-900 text-white">
+        <h3 id="lightboxTitle" class="font-bold text-xl"></h3>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= SUCCESS TOAST NOTIFICATION ================= -->
+  <div id="toast" class="fixed bottom-6 right-6 z-50 transform translate-y-24 opacity-0 transition-all duration-300 max-w-md bg-emerald-600 text-white p-4 rounded-2xl shadow-2xl flex items-center gap-4">
+    <div class="w-10 h-10 rounded-xl bg-white/20 flex items-center justify-center text-xl shrink-0">
+      <i class="fa-solid fa-circle-check"></i>
+    </div>
+    <div>
+      <h4 id="toastTitle" class="font-bold text-sm">Reserva Enviada!</h4>
+      <p id="toastMessage" class="text-xs text-emerald-100">Confirmaremos em até 24 horas no seu e-mail.</p>
+    </div>
+  </div>
+
+  <!-- ================= JAVASCRIPT LOGIC & LOCALSTORAGE PERSISTENCE ================= -->
+  <script>
+    // DATA STORE FOR PRICING
+    const PRICING_DATA = {
+      bike: [
+        ["Passeio Guiado Particular de Meio Dia (5h30)", "Guia, trilhas como Dead Horse Point, Bar M e Klondike. Grupos 1-4 pessoas.", "Sorrel River Ranch", "189", "R$ 965,79"],
+        ["Passeio Guiado Particular + Bike Alugada", "O mesmo passeio com mountain bike de alta performance incluída.", "Sorrel River Ranch", "289", "R$ 1.476,79"],
+        ["Aluguel Bike Full-Suspension 'Performance'", "Capacete, kit de reparo e pedais flat. Retirada 8h, devolução 17h.", "Rim Cyclery", "75", "R$ 383,25"],
+        ["Aluguel Bike Full-Suspension 'Premium/Demo'", "Mesmos itens com bicicleta de linha mais alta.", "Rim Cyclery", "90", "R$ 459,90"],
+        ["Aluguel Bike Infantil 24'' Full-Suspension", "Capacete e kit de reparo inclusos.", "Rim Cyclery", "65", "R$ 332,15"]
+      ],
+      slack: [
+        ["Curso Highline para Iniciantes (8h - 1 Pss)", "Guia dedicado, linha curta em solo, treino de cadeirinha e leash.", "Elevate Outdoors", "500", "R$ 2.555,00"],
+        ["Curso Highline para Iniciantes (8h - 2 Pss)", "Preço promocional por pessoa em dupla.", "Elevate Outdoors", "350", "R$ 1.788,50"],
+        ["Curso Highline para Iniciantes (8h - 3+ Pss)", "Preço promocional por pessoa para grupos.", "Elevate Outdoors", "250", "R$ 1.277,50"],
+        ["Skywalk Travessia Cânion (1 Pessoa)", "Sistema especial de travessia guiada sem necessidade de experiência.", "Elevate Outdoors", "1.000", "R$ 5.110,00"],
+        ["Skywalk Travessia Cânion (3+ Pessoas)", "Valor reduzido por pessoa para grupos no Skywalk.", "Elevate Outdoors", "450", "R$ 2.299,50"]
+      ],
+      combo: [
+        ["Combo 2 Pessoas: Pedal Guiado + Curso Highline", "Pedal com bike alugada + Curso Highline completo de 8h.", "Sorrel + Elevate", "639", "R$ 3.265,29"],
+        ["Combo 3 Pessoas: Pedal Guiado + Curso Highline", "Atividade dupla completa para grupos de 3 pessoas.", "Sorrel + Elevate", "539", "R$ 2.754,29"],
+        ["Combo 3+ Pessoas: Pedal Guiado + Skywalk Cânion", "Pedal em arenito + a emocionante travessia Skywalk.", "Sorrel + Elevate", "739", "R$ 3.776,29"]
+      ],
+      extra: [
+        ["Quarto p/ até 8 pessoas (4 camas queen) / noite", "Slackline Moab (Outset Collection). Dividido p/ 8 pessoas: US$ 18,22/noite.", "Hilton Moab", "145,73", "R$ 744,70"]
+      ]
+    };
+
+    const PRICING_NOTES = {
+      bike: "Passeios do Sorrel River Ranch têm impostos calculados na compra. Capacete incluso em todos os aluguéis.",
+      slack: "Valores antes de impostos locais. Trazer pelo menos 3L de água por pessoa e calçado fechado.",
+      combo: "Pacotes combo combinam os valores reais das duas modalidades ativas em Moab.",
+      extra: "Na alta temporada o quarto de 8 pessoas pode sofrer alteração tarifária por noite."
+    };
+
+    // DARK / LIGHT THEME TOGGLE
+    const themeToggleBtn = document.getElementById('themeToggle');
+    themeToggleBtn.addEventListener('click', () => {
+      document.documentElement.classList.toggle('dark');
+    });
+
+    // MOBILE MENU TOGGLE
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    mobileMenuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    // RENDER PRICING TABLE
+    function switchPriceTab(tabKey) {
+      const rowsContainer = document.getElementById('priceTableRows');
+      const noteContainer = document.getElementById('priceNote');
+      
+      document.querySelectorAll('.price-tab').forEach(btn => {
+        btn.classList.remove('bg-rust-600', 'text-white', 'shadow-lg');
+        btn.classList.add('bg-slate-200', 'dark:bg-slate-800', 'text-slate-700', 'dark:text-slate-300');
+      });
+      
+      const activeBtn = document.getElementById(`tab-${tabKey}`);
+      activeBtn.classList.remove('bg-slate-200', 'dark:bg-slate-800', 'text-slate-700', 'dark:text-slate-300');
+      activeBtn.classList.add('bg-rust-600', 'text-white', 'shadow-lg');
+
+      const data = PRICING_DATA[tabKey];
+      rowsContainer.innerHTML = data.map(row => `
+        <tr class="hover:bg-slate-100/50 dark:hover:bg-slate-800/40 transition-colors">
+          <td class="py-4 px-6 font-bold text-slate-900 dark:text-white">${row[0]}</td>
+          <td class="py-4 px-6 text-slate-600 dark:text-slate-300">${row[1]}</td>
+          <td class="py-4 px-6 text-rust-600 dark:text-rust-400 font-semibold">${row[2]}</td>
+          <td class="py-4 px-6 font-extrabold text-slate-900 dark:text-white">US$ ${row[3]}</td>
+          <td class="py-4 px-6 font-extrabold text-emerald-600 dark:text-emerald-400">${row[4]}</td>
+        </tr>
+      `).join('');
+
+      noteContainer.textContent = PRICING_NOTES[tabKey];
+    }
+
+    // CALCULATE ESTIMATE
+    function calculateEstimate() {
+      const pricePerPerson = parseFloat(document.getElementById('calcPackage').value);
+      const people = parseInt(document.getElementById('calcPeople').value) || 1;
+      const rateBRL = 5.11;
+
+      const totalUSD = pricePerPerson * people;
+      const totalBRL = totalUSD * rateBRL;
+
+      document.getElementById('calcTotalUSD').textContent = `US$ ${totalUSD.toLocaleString('en-US')}`;
+      document.getElementById('calcTotalBRL').textContent = `R$ ${totalBRL.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
+    }
+
+    function transferEstimateToBooking() {
+      const people = document.getElementById('calcPeople').value;
+      document.getElementById('bookPeople').value = people;
+    }
+
+    // SKILL LEVEL FILTER FOR MODALIDADES
+    function filterSkill(level) {
+      document.querySelectorAll('.skill-tab').forEach(tab => {
+        tab.classList.remove('bg-rust-600', 'text-white', 'shadow-md');
+        tab.classList.add('text-slate-600', 'dark:text-slate-300');
+      });
+      const activeTab = document.getElementById(`skillTab-${level}`);
+      activeTab.classList.add('bg-rust-600', 'text-white', 'shadow-md');
+
+      const cards = document.querySelectorAll('.skill-card');
+      cards.forEach(card => {
+        if (level === 'todos' || card.classList.contains(`skill-${level}`)) {
+          card.style.display = 'block';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+
+    // REVIEWS CATEGORY FILTER
+    function filterReviews(cat) {
+      document.querySelectorAll('.rev-filter-btn').forEach(btn => {
+        btn.classList.remove('bg-rust-600', 'text-white');
+        btn.classList.add('bg-slate-800', 'text-slate-300');
+      });
+      document.getElementById(`revFilter-${cat}`).classList.add('bg-rust-600', 'text-white');
+
+      const reviews = document.querySelectorAll('.review-card');
+      reviews.forEach(card => {
+        if (cat === 'all' || card.classList.contains(`rev-${cat}`)) {
+          card.style.display = 'flex';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+
+    // TOGGLE ADD REVIEW FORM ACCORDION
+    function toggleAddReviewForm() {
+      const form = document.getElementById('addReviewForm');
+      const chevron = document.getElementById('reviewChevron');
+      form.classList.toggle('hidden');
+      chevron.classList.toggle('rotate-180');
+    }
+
+    // HANDLE NEW REVIEW SUBMISSION (PERSISTED IN LOCALSTORAGE)
+    function handleNewReview(e) {
+      e.preventDefault();
+      const name = document.getElementById('revName').value;
+      const city = document.getElementById('revCity').value;
+      const category = document.getElementById('revCategory').value;
+      const rating = document.getElementById('revRating').value;
+      const text = document.getElementById('revText').value;
+
+      const reviewObj = { name, city, category, rating, text };
+
+      // Save to localStorage
+      let savedReviews = JSON.parse(localStorage.getItem('ssc_user_reviews') || '[]');
+      savedReviews.unshift(reviewObj);
+      localStorage.setItem('ssc_user_reviews', JSON.stringify(savedReviews));
+
+      renderSingleReviewCard(reviewObj, true);
+
+      document.getElementById('addReviewForm').reset();
+      toggleAddReviewForm();
+
+      showToast("Depoimento Publicado!", "Obrigado por compartilhar sua experiência.");
+    }
+
+    function renderSingleReviewCard(reviewObj, prepend = false) {
+      const starsHtml = '<i class="fa-solid fa-star"></i>'.repeat(parseInt(reviewObj.rating));
+      const card = document.createElement('div');
+      card.className = `review-card rev-${reviewObj.category} p-6 rounded-3xl bg-slate-800/80 backdrop-blur border border-slate-700/80 shadow-2xl flex flex-col justify-between transform transition duration-300 hover:-translate-y-1`;
+      card.innerHTML = `
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <div class="flex text-sand-400 text-sm gap-1">${starsHtml}</div>
+            <span class="text-[10px] bg-rust-500/20 text-rust-300 font-bold px-2.5 py-1 rounded-full uppercase">Novo Depoimento</span>
+          </div>
+          <p class="text-slate-200 text-base italic leading-relaxed mb-6">"${reviewObj.text}"</p>
+        </div>
+        <div class="flex items-center gap-3 pt-4 border-t border-slate-700/60">
+          <div class="w-11 h-11 rounded-full bg-gradient-to-tr from-rust-500 to-sand-500 flex items-center justify-center font-bold text-white text-base">
+            ${reviewObj.name.substring(0, 2).toUpperCase()}
+          </div>
+          <div>
+            <h4 class="font-bold text-white text-sm">${reviewObj.name}</h4>
+            <span class="text-xs text-slate-400">${reviewObj.city}</span>
+          </div>
+        </div>
+      `;
+
+      const grid = document.getElementById('reviewsGrid');
+      if (prepend) {
+        grid.prepend(card);
+      } else {
+        grid.appendChild(card);
+      }
+    }
+
+    function loadSavedReviews() {
+      let savedReviews = JSON.parse(localStorage.getItem('ssc_user_reviews') || '[]');
+      savedReviews.forEach(rev => renderSingleReviewCard(rev, true));
+    }
+
+    // HANDLE BOOKING FORM SUBMISSION (PERSISTED IN LOCALSTORAGE)
+    function handleBookingSubmit(e) {
+      e.preventDefault();
+      const name = document.getElementById('bookName').value;
+      const email = document.getElementById('bookEmail').value;
+      const phone = document.getElementById('bookPhone').value;
+      const activity = document.getElementById('bookActivity').value;
+      const date = document.getElementById('bookDate').value;
+      const people = document.getElementById('bookPeople').value;
+
+      const bookingObj = { name, email, phone, activity, date, people, timestamp: new Date().toISOString() };
+
+      let savedBookings = JSON.parse(localStorage.getItem('ssc_user_bookings') || '[]');
+      savedBookings.push(bookingObj);
+      localStorage.setItem('ssc_user_bookings', JSON.stringify(savedBookings));
+
+      checkSavedBookingsCount();
+
+      showToast(`Reserva Registrada, ${name}!`, "Enviamos os detalhes da sua solicitação.");
+      document.getElementById('bookingForm').reset();
+    }
+
+    function checkSavedBookingsCount() {
+      let savedBookings = JSON.parse(localStorage.getItem('ssc_user_bookings') || '[]');
+      const indicator = document.getElementById('bookingSavedCount');
+      if (savedBookings.length > 0) {
+        indicator.classList.remove('hidden');
+      }
+    }
+
+    // FAQ ACCORDION TOGGLE
+    function toggleFaq(element) {
+      const p = element.querySelector('p');
+      const icon = element.querySelector('.fa-chevron-down');
+      p.classList.toggle('hidden');
+      icon.classList.toggle('rotate-180');
+    }
+
+    // SHOW TOAST NOTIFICATION
+    function showToast(title, msg) {
+      const toast = document.getElementById('toast');
+      document.getElementById('toastTitle').textContent = title;
+      document.getElementById('toastMessage').textContent = msg;
+
+      toast.classList.remove('translate-y-24', 'opacity-0');
+      setTimeout(() => {
+        toast.classList.add('translate-y-24', 'opacity-0');
+      }, 4000);
+    }
+
+    // PRESELECT ACTIVITY FROM CARDS
+    function preselectActivity(type) {
+      const select = document.getElementById('bookActivity');
+      if (type === 'bike') select.value = 'bike';
+      if (type === 'slack') select.value = 'highline';
+    }
+
+    // LIGHTBOX FUNCTIONS
+    function openLightbox(imgUrl, title) {
+      document.getElementById('lightboxImg').src = imgUrl;
+      document.getElementById('lightboxTitle').textContent = title;
+      document.getElementById('lightboxModal').classList.remove('hidden');
+    }
+
+    function closeLightbox() {
+      document.getElementById('lightboxModal').classList.add('hidden');
+    }
+
+    // INITIALIZE PAGE ON LOAD
+    window.onload = function() {
+      switchPriceTab('bike');
+      calculateEstimate();
+      loadSavedReviews();
+      checkSavedBookingsCount();
+    };
+  </script>
+</body>
+</html>
